@@ -25,7 +25,7 @@ export function getMockConfigs({
     if (mockFiles.length) {
       const absMockFiles = mockFiles.map(file => path.join(mockDir, file))
 
-      // ✅ 检查是否存在兼容的方法
+      //  检查是否存在兼容的方法
       let createRegister
       if (typeof helper.createSwcRegister === 'function') {
         createRegister = helper.createSwcRegister
@@ -35,7 +35,7 @@ export function getMockConfigs({
         throw new Error('No valid createRegister function found in helper.')
       }
 
-      // ✅ 注册文件
+      //  注册文件
       createRegister({
         only: absMockFiles
       })

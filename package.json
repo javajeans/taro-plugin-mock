@@ -1,6 +1,6 @@
 {
-  "name": "@tarojs/plugin-mock",
-  "version": "0.0.9",
+  "name": "@tarojs/plugin-mock-server",
+  "version": "0.0.1",
   "description": "Taro 数据 Mock 插件",
   "main": "index.js",
   "scripts": {
@@ -24,12 +24,12 @@
   "keywords": [
     "Taro"
   ],
-  "author": "luckyadam",
+  "author": "javajeans",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/NervJS/tarojs-plugin-mock/issues"
+    "url": "https://github.com/javajeans/taro-plugin-mock/issues"
   },
-  "homepage": "https://github.com/NervJS/tarojs-plugin-mock#readme",
+  "homepage": "https://github.com/javajeans/taro-plugin-mock#readme",
   "devDependencies": {
     "@types/express": "^4.17.3",
     "@types/jest": "^25.1.4",
